@@ -17,10 +17,7 @@ public class RentalAgreement {
 	private double discountPercent;
 	private double discountAmount;
 	private double finalCharge;
-	
-	//String toolCode, String toolType, String toolBrand, int rentalDays, LocalDate checkoutDate, LocalDate dueDate,
-	//int dailyRentalCharge, int chargeDays, double preDiscountCharge, int percent, double discountAmount, double finalCharge
-	
+		
 	public RentalAgreement(Checkout checkoutInformation, Tool toolSelected) {
 		populateRentalAgreement(checkoutInformation, toolSelected);
 	}
